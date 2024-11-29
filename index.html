@@ -47,4 +47,81 @@
 
         .card {
             background-color: white;
-            border: 
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 300px;
+            text-align: center;
+            padding: 15px;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .card h3 {
+            margin: 15px 0 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>Explore my projects and interests</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Example Card 1 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="Project Image">
+            <h3>Project One</h3>
+            <p>Details about this project.</p>
+        </div>
+
+        <!-- Example Card 2 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="Project Image">
+            <h3>Project Two</h3>
+            <p>Details about this project.</p>
+        </div>
+
+        <!-- Example Card 3 -->
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="Project Image">
+            <h3>Project Three</h3>
+            <p>Details about this project.</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Rami Ammourah. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
